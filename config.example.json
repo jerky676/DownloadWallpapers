@@ -1,0 +1,41 @@
+{
+  "pullNewImages": true,
+  "randomKeyword": true,
+  "wallpapersPath": "~/Pictures/backgrounds",
+  "filter": {
+    "imageCount": 2,
+    "imageExtensions": ["png", "jpg", "jpeg"],
+    "keywords": [
+      "metroid",
+      "super metroid",
+      "simpsons",
+      "batman",
+      "the flash",
+      "Green lantern",
+      "futurama",
+      "rick and morty",
+      "bender",
+      "star wars",
+      "jedi",
+      "star trek lower decks",
+      "super mario",
+      "earthbound",
+      "dr mario",
+      "spider man",
+      "shy guy",
+      "bob ross",
+      "spider punk",
+      "spiderman"
+    ]
+  },
+  "reddit": {
+    "clientId": "4444444444444",
+    "clientSecret": "dfgdfgdfgfdgfdgdfgdfgdfgdfdf",
+    "userAgent": "script by u/username",
+
+    "filter": {
+      "subReddits": ["wallpapers"],
+      "postLimit": 50
+    }
+  }
+}
