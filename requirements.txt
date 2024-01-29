@@ -4,3 +4,4 @@ Pillow
 selenium
 BeautifulSoup4
 webdriver_manager
+microsoft-bing-customimagesearch

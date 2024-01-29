@@ -2,17 +2,22 @@
 
 import os
 import json
-from config import Config
-from reddit.reddit_images import RedditImages
+# from bing.config import BingConfig
+from base.image_config import ImageConfig
+from reddit.config import RedditConfig
+from reddit.images import RedditImages
+from bing.images import BingImages
 
 def main():
-    config = Config(f"{os.path.dirname(os.path.realpath(__file__))}/config.json")
+    config_file = f"{os.path.dirname(os.path.realpath(__file__))}/config.json"
+   
+    #bing_config = BingConfig(config_json["bing"], self.filter )
+    # bing_images = BingImages(config)
+    # images = bing_images.get_images()
 
-    reddit_images = RedditImages(config)
+
+    reddit_images = RedditImages(config_file)
     reddit_images.get_images()
-
-    # wall_paper = WallPapers(config)
-    # wall_paper.choose_random_wallpaper()
 
 
 if __name__ == "__main__":

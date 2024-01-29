@@ -1,4 +1,4 @@
-class Filter:
+class ImageFilter:
 
     def __init__(self, json_data):
         self._image_count:int = json_data["imageCount"]
